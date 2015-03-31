@@ -1,4 +1,4 @@
 # selenium-python-template
 
-* page object model http://selenium-python.readthedocs.org/page-objects.html.
-* utilizes nose tests.
+* Page object model http://selenium-python.readthedocs.org/page-objects.html.
+* Utilizes nose tests.
