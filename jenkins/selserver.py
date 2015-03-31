@@ -12,12 +12,12 @@ driver = webdriver.Remote(
 #         })
 # print ("Video: https://s3.amazonaws.com/4ad4a405-ef2a-b3d3-a629-1ab0a2d338b1/121fce53-381d-da53-ec5e-f0e840017a98/play.html?"+driver.session_id)
 
-	command_executor="http://localhost:4444/wd/hub", 	
-	desired_capabilities={
-	    'platform': "LINUX",
-	    'browserName': "firefox",   
-	    # 'version': "34"
-	})
+    command_executor="http://localhost:4444/wd/hub",
+    desired_capabilities={
+        'platform': "LINUX",
+        'browserName': "firefox",
+        # 'version': "34"
+    })
 
 try:
     # driver.implicitly_wait(30)
